@@ -1,0 +1,14 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Pytest cache
+.pytest_cache/
+
+# Any __pycache__ or pytest cache in subdirectories
+**/__pycache__/
+**/.pytest_cache/
+
+# Other local folders or files not needed in repo
+README_files/
+
