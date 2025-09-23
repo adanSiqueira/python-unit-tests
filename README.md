@@ -11,7 +11,11 @@
 
 ## Repository Overview
 
-This repository is a **study-focused collection** of examples, exercises, and theory on **Unit Testing and Automated Testing in Python**.  
+This repository is a **study-focused collection** of examples, exercises, and theory on **Unit Testing and Automated Testing in Python**. 
+
+It contains the **examples and cases proposed in the tutorial "Please Learn How To Write Tests in Python… • Pytest Tutorial"** on [Tech With Tim](https://www.youtube.com/watch?v=EgpLj86ZHFQ), demonstrating practical usage of **pytest**, **mocking functions and classes**, and **Flask API testing**.
+
+
 It contains practical examples covering:
 
 - Writing **unit tests** for functions and classes
