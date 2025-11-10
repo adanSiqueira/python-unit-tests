@@ -13,6 +13,10 @@
 
 This repository is a **study-focused collection** of examples, exercises, and theory on **Unit Testing and Automated Testing in Python**. 
 
+A practical, structured learning repository to master **Python unit testing with pytest**.
+
+This repo walks you step by step — from simple functions to mocking APIs and testing Flask endpoints — showing **how** and **why** each testing concept works.
+
 It contains the **examples and cases proposed in the tutorial "Please Learn How To Write Tests in Python… • Pytest Tutorial"** on [Tech With Tim](https://www.youtube.com/watch?v=EgpLj86ZHFQ), demonstrating practical usage of **pytest**, **mocking functions and classes**, and **Flask API testing**.
 
 
@@ -31,39 +35,17 @@ The goal of this repo is to serve as a **learning resource** for Python develope
 ---
 
 ## Repository Structure
-```
-api.py      -> Simulated Flask API for testing
-test_api.py -> Tests for the Flask API
 
-Python-Testing/
-├── fixtures-setup-example/
-│ ├── main.py   -> Example functions to be tested
-│ └── test_main.py  -> Tests using setup fixtures
-├── fixtures-teardown/
-│ ├── db.py  -> Simulated database module
-│ └── test_db.py -> Tests using teardown fixtures
-├── mocks-classes/
-│ ├── service.py -> Example class to be tested
-│ └── test_service.py -> Tests mocking classes
-├── mocks-functions/
-│ ├── db.py -> Example function to be tested
-│ ├── main.py -> Example functions to be tested
-│ ├── test_db.py -> Tests mocking functions
-│ └── test_main.py -> Tests for main.py
-├── parametrized-testing/
-│ ├── main.py -> Example parametrized functions to be tested
-│ └── test_main.py -> Parametrized tests
-├── theory/
-│ ├── fixtures.pdf -> Explanation of pytest fixtures
-│ ├── mocking.pdf -> Explanation of mocking in tests
-│ ├── testing_types.pdf -> Overview of different test types
-│ └── unit_testing.pdf -> General unit testing theory
-└── simple-functions-example/
-    ├── main.py -> Simple functions to be tested
-    └── test_main.py -> Tests for simple functions
-requirements.txt -> Project dependencies
-README.md  -> This file
-```
+| Folder | Topic | Key Concepts |
+|---------|--------|--------------|
+| `1-simple-functions-example/` | Basic unit testing | Assertions, test discovery |
+| `2-fixtures-setup-example/` | Fixtures (setup) | `@pytest.fixture`, reusable setups |
+| `3-fixtures-teardown/` | Setup & teardown | Yield fixtures, cleanup steps |
+| `4-parametrized-testing/` | Parametrized tests | `@pytest.mark.parametrize` |
+| `5-mocking/` | Mocking | `mocker` fixture, patching, fakes |
+| `6-example-testing-an-api/` | API testing | Flask test client, HTTP assertions |
+
+---
 
 
 ### Highlights
@@ -107,3 +89,13 @@ Python 3.13
 pytest 8.4.2
 Flask 2.3.2
 mocker (pytest-mock) 3.10.0
+
+---
+##  Author
+
+**Adan Siqueira**  
+🔗 [GitHub Profile](https://github.com/AdanSiqueira)
+
+---
+
+If you like this project, don’t forget to ⭐ **star the repository** to show your support!
