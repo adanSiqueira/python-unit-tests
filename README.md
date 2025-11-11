@@ -13,7 +13,7 @@
 
 This repository is a **study-focused collection** of examples, exercises, and theory on **Unit Testing and Automated Testing in Python**. 
 
-A practical, structured learning repository to master **Python unit testing with pytest**.
+A practical, structured learning repository to master **Python unit testing with pytest** module.
 
 This repo walks you step by step — from simple functions to mocking APIs and testing Flask endpoints — showing **how** and **why** each testing concept works.
 
