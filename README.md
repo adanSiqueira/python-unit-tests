@@ -15,7 +15,7 @@ This repository is a **study-focused collection** of examples, exercises, and th
 
 A practical, structured learning repository to master **Python unit testing with pytest** module.
 
-This repo walks you step by step — from simple functions to mocking APIs and testing Flask endpoints — showing **how** and **why** each testing concept works.
+This repo walks you step by step, from simple functions to mocking APIs and testing Flask endpoints, showing **how** and **why** each testing concept works.
 
 It contains the **examples and cases proposed in the tutorial "Please Learn How To Write Tests in Python… • Pytest Tutorial"** on [Tech With Tim](https://www.youtube.com/watch?v=EgpLj86ZHFQ), demonstrating practical usage of **pytest**, **mocking functions and classes**, and **Flask API testing**.
 
